@@ -9,14 +9,16 @@
 
 ## 構成
 ### ハードウェア
--親機
- -マイコン：ESP32-WROOM-32E
- -DFPlayer Mini
- -RTC：
- -LCD：
- -
--子機
- -マイコン：ESP32-WROOM-32E
+-親機(Parent Unit)
+| Function | Component / Module | Interface |
+| :--- | :--- | :--- |
+| MCU | ESP32-WROOM-32E | - |
+| Audio | DFPlayer Mini (MP3-TF-16P) | UART |
+| RTC | DS3231 (High Precision RTC) | I2C |
+| Display | 1.3" OLED (SH1106) | I2C |
+| Storage | MicroSD Card Slot (Integrated) | SPI |
+-子機(Child Unit)
+ -MCU：ESP32-WROOM-32E
  -LED
  -圧電ブザー
  -RFID：RC522
