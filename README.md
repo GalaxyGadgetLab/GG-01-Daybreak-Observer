@@ -11,7 +11,9 @@
 ### ハードウェア
 -親機(Parent Unit)
 | Function | Component / Module | Interface |
+
 | :--- | :--- | :--- |
+
 | MCU | ESP32-WROOM-32E | - |
 | Audio | DFPlayer Mini (MP3-TF-16P) | UART |
 | RTC | DS3231 (High Precision RTC) | I2C |
