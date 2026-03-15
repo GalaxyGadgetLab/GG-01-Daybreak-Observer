@@ -8,21 +8,21 @@
 リビングまで移動してラボの会員証(RFIDタグ)をかざさない限り，アラームは止まりません．
 
 ## 構成
-### ハードウェア
--親機(Parent Unit)
+## ハードウェア
+
+### 親機(Parent Unit)
 | Function | Component / Module | Interface |
-
 | :--- | :--- | :--- |
-
 | MCU | ESP32-WROOM-32E | - |
 | Audio | DFPlayer Mini (MP3-TF-16P) | UART |
 | RTC | DS3231 (High Precision RTC) | I2C |
-| Display | 1.3" OLED (SH1106) | I2C |
-| Storage | MicroSD Card Slot (Integrated) | SPI |
--子機(Child Unit)
- -MCU：ESP32-WROOM-32E
- -LED
- -圧電ブザー
- -RFID：RC522
- -
+| Display | 1.3" OLED (SH1106) | SPI |
+### 子機(Child Unit)
+| Function | Component / Module | Interface |
+| :--- | :--- | :--- |
+| MCU | ESP32-WROOM-32E | - |
+| RFID | MFRC522 (NFC Reader/Writer) | SPI |
+| Indicator | High-brightness Red LED | GPIO |
+| Alarm | Piezoelectric Buzzer | PWM |
+ 
 
