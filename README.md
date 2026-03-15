@@ -28,6 +28,5 @@
 本プロジェクトでは，専用のカスタム基板を設計・製作しました．
 - **Design Tool：** KiCad 9.0
 - **Layer:** 2 Layers
-- **Key Features:**
  
 
