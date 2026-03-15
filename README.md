@@ -14,15 +14,16 @@
 | Function | Component / Module | Interface |
 | :--- | :--- | :--- |
 | MCU | ESP32-WROOM-32E | - |
-| Audio | DFPlayer Mini (MP3-TF-16P) | UART |
-| RTC | DS3231 (High Precision RTC) | I2C |
-| Display | 1.3" OLED (SH1106) | SPI |
+| Audio | DFPlayer Mini | UART |
+| RTC | DS3231  | I2C |
+| Display | 2.8"TFT(ILI9341) | SPI |
+
 ### 子機(Child Unit)
 | Function | Component / Module | Interface |
 | :--- | :--- | :--- |
 | MCU | ESP32-WROOM-32E | - |
 | RFID | MFRC522 (NFC Reader/Writer) | SPI |
 | Indicator | High-brightness Red LED | GPIO |
-| Alarm | Piezoelectric Buzzer | PWM |
+| Alarm | Piezoelectric Buzzer | GPIO |
  
 
