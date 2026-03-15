@@ -12,6 +12,7 @@
 
 ### 親機(Parent Unit)
 | Function | Component / Module | Interface |
+| :--- | :--- |
 | MCU | ESP32-WROOM-32E | - |
 | Audio | DFPlayer Mini | UART |
 | RTC | DS3231  | I2C |
@@ -19,6 +20,7 @@
 
 ### 子機(Child Unit)
 | Function | Component / Module | Interface |
+| :--- | :--- |
 | MCU | ESP32-WROOM-32E | - |
 | RFID | MFRC522 (NFC Reader/Writer) | SPI |
 | Indicator | High-brightness Red LED | GPIO |
